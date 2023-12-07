@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    float pencil,pen,eraser,total_cost,bill;
+    printf("enter the cost of pencil,pen,eraser\n");
+    scanf("%f%f%f",&pencil,&pen,&eraser);
+    total_cost=pencil+pen+eraser;
+    printf("total cost=%f\n",total_cost);
+    bill=(total_cost*18)/100;
+    printf("total bill=%f\n",bill);
+    getch();
+}
