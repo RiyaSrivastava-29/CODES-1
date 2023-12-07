@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+int A,B,C,av;
+printf("enter three numbers A,B,C \n");
+scanf("%d %d%d", &A, &B,&C);
+av=(A+B+C)/3;
+printf("the average is %d \n",av);
+return 0;
+}
